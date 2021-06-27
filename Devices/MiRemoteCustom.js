@@ -18,7 +18,7 @@ class MiRemoteCustomService {
     this.interval = interval;
 
     this.readydevice = false;
-    this.device = dThis.platform.getMiioDevice(
+    this.device = this.platform.getMiioDevice(
       {
         address: ip,
         token
